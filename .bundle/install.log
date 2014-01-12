@@ -1,0 +1,6 @@
+# Logfile created on 2014-01-12 11:08:39 -0800 by logger.rb/41954
+I, [2014-01-12T11:08:39.155213 #17702]  INFO -- : 0:  ansi (1.4.3) from /home/toasty/.rvm/gems/ruby-2.0.0-p353/specifications/ansi-1.4.3.gemspec
+I, [2014-01-12T11:08:39.815634 #17702]  INFO -- : 0:  minitest (5.2.1) from /home/toasty/.rvm/gems/ruby-2.0.0-p353/specifications/minitest-5.2.1.gemspec
+I, [2014-01-12T11:08:39.989455 #17702]  INFO -- : 0:  turn (0.9.6) from /home/toasty/.rvm/gems/ruby-2.0.0-p353/specifications/turn-0.9.6.gemspec
+I, [2014-01-12T11:08:40.272395 #17702]  INFO -- : 0:  vcr (2.8.0) from /home/toasty/.rvm/gems/ruby-2.0.0-p353/specifications/vcr-2.8.0.gemspec
+I, [2014-01-12T11:08:40.272844 #17702]  INFO -- : 0:  bundler (1.5.1) from /home/toasty/.rvm/gems/ruby-2.0.0-p353/specifications/bundler-1.5.1.gemspec
