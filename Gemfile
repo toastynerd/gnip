@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 source "http://rubygems.org"
 
+gem "httparty"
+
 group :test, :development do
   gem "minitest"
   gem "vcr"
