@@ -5,8 +5,8 @@ module Gnip
       @auth = {username: options.fetch(:username), password: options.fetch(:password)}            
     end
 
-    def search(options = {})
-      query = "?"
+    def twitter_search(query, options = {})
+      query = "?provider=twitter&query=#{query}"
       options.each do |key, value| 
         query += "#{key}=#{value}&"
       end
