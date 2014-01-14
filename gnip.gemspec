@@ -16,4 +16,5 @@ Gem::Specification.new do |spec|
   spec.files =  Dir["lib/**/*"]
 
   spec.add_runtime_dependency "httparty", "~> 0.12"
+  spec.add_runtime_dependency "gnip-stream", "~> 1.0"
 end

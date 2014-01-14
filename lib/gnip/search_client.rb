@@ -1,7 +1,7 @@
 module Gnip
   class SearchClient
     def initialize(options= {})
-      @search_uri = options.fetch(:search_uri)
+      @search_uri = options.fetch(:uri)
       @auth = {username: options.fetch(:username), password: options.fetch(:password)}            
     end
 
