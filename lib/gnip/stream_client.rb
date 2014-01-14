@@ -9,7 +9,7 @@ module Gnip
     end
 
     def stream(&block)
-      @client.consume &block
+      @client.consume(&block)
     end
   end
 end
