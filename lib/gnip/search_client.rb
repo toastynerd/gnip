@@ -6,7 +6,7 @@ module Gnip
     end
 
     def twitter_search(query, options = {})
-      query = "?provider=twitter&query=#{query}"
+      query = "?publisher=twitter&query=#{query}"
       options.each do |key, value| 
         query += "#{key}=#{value}&"
       end
