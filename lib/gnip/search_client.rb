@@ -8,9 +8,10 @@ module Gnip
     def twitter_search(query, options = {})
       query = "?publisher=twitter&query=#{query}"
       options.each do |key, value| 
-        query += "#{key}=#{value}&"
+        query += "&#{key}=#{value}"
       end
-
+ 
+      puts "searching with query: #{@search_uri + query}"
       HTTParty.get(@search_uri + query, basic_auth: @auth)
     end
   end
