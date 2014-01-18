@@ -10,7 +10,7 @@ module Gnip
     end
 
     def add_rule(options = {})
-      puts "sending query: #{@rules_rui} body: {rules: [value: #{options.fetch(:value)}]}"
+      puts "sending query: #{@rules_uri} body: {rules: [value: #{options.fetch(:value)}]}"
       HTTParty.post(@rules_uri, body: {rules: [{value: options.fetch(:value), tag: options.fetch(:tag)}]}.to_json, basic_auth: @auth)
     end
 
